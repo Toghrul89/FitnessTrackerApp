@@ -13,20 +13,22 @@ Features:
 - 📊 View workout history and progress summary  
 - 💾 Saves data locally using SharedPreferences  
 
+
 Built With:
 
 - Kotlin  
 - Android SDK  
 - XML Layouts  
 - SharedPreferences for local data storage  
-- Intents and Activities for screen navigation  
+- Intents and Activities for screen navigation
 
----
 
 How to Run the App:
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/Toghrul89/FitnessTrackerApp.git
+
 2.Open the project in Android Studio.
+
 3.Build and run on an emulator or physical device.
