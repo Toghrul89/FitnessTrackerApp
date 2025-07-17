@@ -1,4 +1,4 @@
-# 🏋️ Fitness Tracker App
+# 🏋️ Fitness Tracker App - IT216 Group Project 
 
 A simple and clean Android fitness tracking app built in Kotlin. This project was developed as part of my Software Development coursework at Seattle Central College, and it demonstrates core Android skills including UI design, user input handling, activity navigation, and data persistence.
 
