@@ -1,39 +1,37 @@
 package com.example.it216groupproject1
 
+import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
-import android.widget.EditText
+import android.widget.TextView
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
-
-    private lateinit var enterName: EditText
-    private lateinit var setGoalButton: Button
-    private lateinit var trackActivitiesButton: Button
-    private lateinit var viewProgressButton: Button
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        enterName = findViewById(R.id.enterName)
-        setGoalButton = findViewById(R.id.setGoalButton)
-        trackActivitiesButton = findViewById(R.id.trackActivitiesButton)
-        viewProgressButton = findViewById(R.id.viewProgressButton)
+        val sharedPrefs = getSharedPreferences("FitnessPrefs", Context.MODE_PRIVATE)
+        val savedGoal = sharedPrefs.getString("user_goal", "No goal set yet.")
 
-        setGoalButton.setOnClickListener {
+        val goalTextView = findViewById<TextView>(R.id.tvUserGoal)
+        goalTextView.text = "Your Goal: $savedGoal"
+
+        findViewById<Button>(R.id.btnStartWorkout).setOnClickListener {
+            val intent = Intent(this, WorkoutActivity::class.java)
+            startActivity(intent)
+
+        }
+
+        findViewById<Button>(R.id.btnSetGoal).setOnClickListener {
             val intent = Intent(this, SetGoalActivity::class.java)
             startActivity(intent)
         }
 
-        trackActivitiesButton.setOnClickListener {
-            val intent = Intent(this, TrackActivitiesActivity::class.java)
-            startActivity(intent)
-        }
-
-        viewProgressButton.setOnClickListener {
-            val intent = Intent(this, ViewProgressActivity::class.java)
+        findViewById<Button>(R.id.btnViewProgress).setOnClickListener {
+            val intent = Intent(this, ProgressActivity::class.java)
             startActivity(intent)
         }
     }

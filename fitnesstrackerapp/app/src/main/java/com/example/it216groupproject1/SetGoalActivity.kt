@@ -1,33 +1,35 @@
-class SetGoalActivity : AppCompatActivity() {
-    private lateinit var goalEditText: EditText
-    private lateinit var saveButton: Button
+package com.example.it216groupproject1
 
+import android.content.Context
+import android.os.Bundle
+import android.widget.Button
+import android.widget.EditText
+import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
+
+class SetGoalActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_set_goal)
 
-        goalEditText = findViewById(R.id.goalEditText)
-        saveButton = findViewById(R.id.saveButton)
+        val goalInput = findViewById<EditText>(R.id.etGoal)
+        val saveButton = findViewById<Button>(R.id.btnSaveGoal)
 
-        // Get the user's name from MainActivity
-        val userName = intent.getStringExtra("USER_NAME") ?: "User"
-        findViewById<TextView>(R.id.userNameText).text = "Hello, $userName!"
+        val sharedPrefs = getSharedPreferences("FitnessPrefs", Context.MODE_PRIVATE)
 
         saveButton.setOnClickListener {
-            saveGoal()
-        }
-    }
+            val goalText = goalInput.text.toString().trim()
 
-    private fun saveGoal() {
-        val goal = goalEditText.text.toString()
-        if (goal.isNotEmpty()) {
-            // Save to SharedPreferences
-            val sharedPref = getSharedPreferences("FitnessPrefs", MODE_PRIVATE)
-            sharedPref.edit().putString("goal", goal).apply()
-            Toast.makeText(this, "Goal saved!", Toast.LENGTH_SHORT).show()
-            finish() // Return to MainActivity
-        } else {
-            Toast.makeText(this, "Please enter a goal", Toast.LENGTH_SHORT).show()
+            if (goalText.isNotEmpty()) {
+                with(sharedPrefs.edit()) {
+                    putString("user_goal", goalText)
+                    apply()
+                }
+                Toast.makeText(this, "Goal saved!", Toast.LENGTH_SHORT).show()
+                finish() // return to MainActivity
+            } else {
+                Toast.makeText(this, "Please enter a goal.", Toast.LENGTH_SHORT).show()
+            }
         }
     }
 }
