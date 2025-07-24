@@ -1,0 +1,4 @@
+# Ignore Gradle system files
+.gradle/
+*.lock
+*.probe
