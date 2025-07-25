@@ -23,6 +23,7 @@ id tvMainTitle
 id tvPlaceholder
 id tvProgressTitle
 id tvTimer
+id tvUserGoal
 layout activity_main
 layout activity_progress
 layout activity_set_goal

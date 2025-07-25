@@ -3539,6 +3539,7 @@ id tvMainTitle
 id tvPlaceholder
 id tvProgressTitle
 id tvTimer
+id tvUserGoal
 id unchecked
 id uniform
 id unlabeled

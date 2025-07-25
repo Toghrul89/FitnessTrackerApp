@@ -1,0 +1,19 @@
+<lint-module
+    format="1"
+    dir="/Users/toghruljafarov/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/app"
+    name=":app"
+    type="APP"
+    maven="IT216GroupProject1:app:unspecified"
+    agpVersion="8.4.1"
+    buildFolder="build"
+    bootClassPath="/Users/toghruljafarov/Library/Android/sdk/platforms/android-34-2/android.jar:/Users/toghruljafarov/Library/Android/sdk/build-tools/34.0.0-2/core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-34"
+    neverShrinking="true">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="debug"/>
+</lint-module>

@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.4.1" type="incidents">
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;🏋️ Fitness Tracker&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="14"
+            column="9"
+            startOffset="468"
+            endLine="14"
+            endColumn="43"
+            endOffset="502"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;(Goal goes here)&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="24"
+            column="9"
+            startOffset="799"
+            endLine="24"
+            endColumn="40"
+            endOffset="830"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Set Goal&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="33"
+            column="9"
+            startOffset="1045"
+            endLine="33"
+            endColumn="32"
+            endOffset="1068"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Start Workout&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="43"
+            column="9"
+            startOffset="1376"
+            endLine="43"
+            endColumn="37"
+            endOffset="1404"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;View Progress&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="53"
+            column="9"
+            startOffset="1712"
+            endLine="53"
+            endColumn="37"
+            endOffset="1740"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;📈 Progress&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_progress.xml"
+            line="14"
+            column="9"
+            startOffset="472"
+            endLine="14"
+            endColumn="35"
+            endOffset="498"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Loading saved goal...&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_progress.xml"
+            line="25"
+            column="9"
+            startOffset="846"
+            endLine="25"
+            endColumn="45"
+            endOffset="882"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Your progress will appear here.&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_progress.xml"
+            line="36"
+            column="9"
+            startOffset="1237"
+            endLine="36"
+            endColumn="55"
+            endOffset="1283"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;← Back to Home&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_progress.xml"
+            line="45"
+            column="9"
+            startOffset="1542"
+            endLine="45"
+            endColumn="38"
+            endOffset="1571"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Set Your Workout Goal&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_set_goal.xml"
+            line="15"
+            column="9"
+            startOffset="521"
+            endLine="15"
+            endColumn="45"
+            endOffset="557"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                point="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_set_goal.xml"
+            line="20"
+            column="6"
+            startOffset="675"
+            endLine="20"
+            endColumn="14"
+            endOffset="683"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;e.g. Run 5km&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_set_goal.xml"
+            line="24"
+            column="9"
+            startOffset="820"
+            endLine="24"
+            endColumn="36"
+            endOffset="847"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Save Goal&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_set_goal.xml"
+            line="34"
+            column="9"
+            startOffset="1166"
+            endLine="34"
+            endColumn="33"
+            endOffset="1190"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Time: 00:00&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_workout.xml"
+            line="14"
+            column="9"
+            startOffset="464"
+            endLine="14"
+            endColumn="35"
+            endOffset="490"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Calories: 0.0&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_workout.xml"
+            line="24"
+            column="9"
+            startOffset="787"
+            endLine="24"
+            endColumn="37"
+            endOffset="815"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Start Workout&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_workout.xml"
+            line="33"
+            column="9"
+            startOffset="1075"
+            endLine="33"
+            endColumn="37"
+            endOffset="1103"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Stop Workout&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_workout.xml"
+            line="41"
+            column="9"
+            startOffset="1328"
+            endLine="41"
+            endColumn="36"
+            endOffset="1355"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/it216groupproject1/MainActivity.kt"
+            line="20"
+            column="29"
+            startOffset="714"
+            endLine="20"
+            endColumn="52"
+            endOffset="737"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="String literal in `setText` can not be translated. Use Android resources instead.">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/it216groupproject1/MainActivity.kt"
+            line="20"
+            column="30"
+            startOffset="715"
+            endLine="20"
+            endColumn="41"
+            endOffset="726"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/it216groupproject1/ProgressActivity.kt"
+            line="25"
+            column="33"
+            startOffset="817"
+            endLine="25"
+            endColumn="64"
+            endOffset="848"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="String literal in `setText` can not be translated. Use Android resources instead.">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/it216groupproject1/ProgressActivity.kt"
+            line="25"
+            column="34"
+            startOffset="818"
+            endLine="25"
+            endColumn="53"
+            endOffset="837"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="String literal in `setText` can not be translated. Use Android resources instead.">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/it216groupproject1/ProgressActivity.kt"
+            line="27"
+            column="34"
+            startOffset="899"
+            endLine="27"
+            endColumn="62"
+            endOffset="927"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/it216groupproject1/WorkoutActivity.kt"
+            line="50"
+            column="38"
+            startOffset="1460"
+            endLine="50"
+            endColumn="85"
+            endOffset="1507"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/it216groupproject1/WorkoutActivity.kt"
+            line="50"
+            column="38"
+            startOffset="1460"
+            endLine="50"
+            endColumn="85"
+            endOffset="1507"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/it216groupproject1/WorkoutActivity.kt"
+            line="54"
+            column="41"
+            startOffset="1668"
+            endLine="54"
+            endColumn="82"
+            endOffset="1709"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/it216groupproject1/WorkoutActivity.kt"
+            line="54"
+            column="41"
+            startOffset="1668"
+            endLine="54"
+            endColumn="82"
+            endOffset="1709"/>
+    </incident>
+
+    <incident
+        id="OldTargetApi"
+        severity="warning"
+        message="Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the `android.os.Build.VERSION_CODES` javadoc for details.">
+        <fix-replace
+            description="Update targetSdkVersion to 35"
+            oldString="34"
+            replacement="35"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle.kts"
+            line="13"
+            column="9"
+            startOffset="291"
+            endLine="13"
+            endColumn="23"
+            endOffset="305"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.core:core-ktx than 1.10.1 is available: 1.16.0">
+        <fix-replace
+            description="Change to 1.16.0"
+            family="Update versions"
+            oldString="1.10.1"
+            replacement="1.16.0"
+            priority="0"/>
+        <location
+            file="$HOME/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/gradle/libs.versions.toml"
+            line="4"
+            column="11"
+            startOffset="52"
+            endLine="4"
+            endColumn="19"
+            endOffset="60"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.test.ext:junit than 1.1.5 is available: 1.2.1">
+        <fix-replace
+            description="Change to 1.2.1"
+            family="Update versions"
+            oldString="1.1.5"
+            replacement="1.2.1"
+            priority="0"/>
+        <location
+            file="$HOME/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/gradle/libs.versions.toml"
+            line="6"
+            column="16"
+            startOffset="93"
+            endLine="6"
+            endColumn="23"
+            endOffset="100"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.test.espresso:espresso-core than 3.5.1 is available: 3.6.1">
+        <fix-replace
+            description="Change to 3.6.1"
+            family="Update versions"
+            oldString="3.5.1"
+            replacement="3.6.1"
+            priority="0"/>
+        <location
+            file="$HOME/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/gradle/libs.versions.toml"
+            line="7"
+            column="16"
+            startOffset="116"
+            endLine="7"
+            endColumn="23"
+            endOffset="123"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.appcompat:appcompat than 1.6.1 is available: 1.7.1">
+        <fix-replace
+            description="Change to 1.7.1"
+            family="Update versions"
+            oldString="1.6.1"
+            replacement="1.7.1"
+            priority="0"/>
+        <location
+            file="$HOME/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/gradle/libs.versions.toml"
+            line="8"
+            column="13"
+            startOffset="136"
+            endLine="8"
+            endColumn="20"
+            endOffset="143"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.android.material:material than 1.10.0 is available: 1.12.0">
+        <fix-replace
+            description="Change to 1.12.0"
+            family="Update versions"
+            oldString="1.10.0"
+            replacement="1.12.0"
+            priority="0"/>
+        <location
+            file="$HOME/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/gradle/libs.versions.toml"
+            line="9"
+            column="12"
+            startOffset="155"
+            endLine="9"
+            endColumn="20"
+            endOffset="163"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.activity:activity than 1.8.0 is available: 1.10.1">
+        <fix-replace
+            description="Change to 1.10.1"
+            family="Update versions"
+            oldString="1.8.0"
+            replacement="1.10.1"
+            priority="0"/>
+        <location
+            file="$HOME/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/gradle/libs.versions.toml"
+            line="10"
+            column="12"
+            startOffset="175"
+            endLine="10"
+            endColumn="19"
+            endOffset="182"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.constraintlayout:constraintlayout than 2.1.4 is available: 2.2.1">
+        <fix-replace
+            description="Change to 2.2.1"
+            family="Update versions"
+            oldString="2.1.4"
+            replacement="2.2.1"
+            priority="0"/>
+        <location
+            file="$HOME/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/gradle/libs.versions.toml"
+            line="11"
+            column="20"
+            startOffset="202"
+            endLine="11"
+            endColumn="27"
+            endOffset="209"/>
+    </incident>
+
+    <incident
+        id="AndroidGradlePluginVersion"
+        severity="warning"
+        message="A newer version of com.android.application than 8.4.1 is available: 8.11.1. (There is also a newer version of 8.4.𝑥 available, if upgrading to 8.11.1 is difficult: 8.4.2)">
+        <fix-alternatives>
+            <fix-replace
+                description="Change to 8.11.1"
+                family="Update versions"
+                oldString="8.4.1"
+                replacement="8.11.1"
+                priority="0"/>
+            <fix-replace
+                description="Change to 8.4.2"
+                family="Update versions"
+                robot="true"
+                independent="true"
+                oldString="8.4.1"
+                replacement="8.4.2"
+                priority="0"/>
+        </fix-alternatives>
+        <location
+            file="$HOME/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/gradle/libs.versions.toml"
+            line="2"
+            column="7"
+            startOffset="17"
+            endLine="2"
+            endColumn="14"
+            endOffset="24"/>
+    </incident>
+
+    <incident
+        id="Overdraw"
+        severity="warning"
+        message="Possible overdraw: Root element paints background `#FAFAFA` with a theme that also paints a background (inferred theme is `@style/Theme.FitnessTrackerApp`)">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="8"
+            column="5"
+            startOffset="288"
+            endLine="8"
+            endColumn="33"
+            endOffset="316"/>
+    </incident>
+
+    <incident
+        id="Overdraw"
+        severity="warning"
+        message="Possible overdraw: Root element paints background `#FFFFFF` with a theme that also paints a background (inferred theme is `@style/Theme.FitnessTrackerApp`)">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_progress.xml"
+            line="8"
+            column="5"
+            startOffset="288"
+            endLine="8"
+            endColumn="33"
+            endOffset="316"/>
+    </incident>
+
+    <incident
+        id="Overdraw"
+        severity="warning"
+        message="Possible overdraw: Root element paints background `@android:color/white` with a theme that also paints a background (inferred theme is `@style/Theme.FitnessTrackerApp`)">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_set_goal.xml"
+            line="9"
+            column="5"
+            startOffset="326"
+            endLine="9"
+            endColumn="46"
+            endOffset="367"/>
+    </incident>
+
+    <incident
+        id="Overdraw"
+        severity="warning"
+        message="Possible overdraw: Root element paints background `#FFFFFF` with a theme that also paints a background (inferred theme is `@style/Theme.FitnessTrackerApp`)">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_workout.xml"
+            line="8"
+            column="5"
+            startOffset="288"
+            endLine="8"
+            endColumn="33"
+            endOffset="316"/>
+    </incident>
+
+</incidents>

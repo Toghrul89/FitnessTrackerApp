@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.4.1" type="incidents">
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.core:core-ktx than 1.10.1 is available: 1.16.0">
+        <fix-replace
+            description="Change to 1.16.0"
+            family="Update versions"
+            oldString="1.10.1"
+            replacement="1.16.0"
+            priority="0"/>
+        <location
+            file="$HOME/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/gradle/libs.versions.toml"
+            line="4"
+            column="11"
+            startOffset="52"
+            endLine="4"
+            endColumn="19"
+            endOffset="60"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.test.ext:junit than 1.1.5 is available: 1.2.1">
+        <fix-replace
+            description="Change to 1.2.1"
+            family="Update versions"
+            oldString="1.1.5"
+            replacement="1.2.1"
+            priority="0"/>
+        <location
+            file="$HOME/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/gradle/libs.versions.toml"
+            line="6"
+            column="16"
+            startOffset="93"
+            endLine="6"
+            endColumn="23"
+            endOffset="100"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.test.espresso:espresso-core than 3.5.1 is available: 3.6.1">
+        <fix-replace
+            description="Change to 3.6.1"
+            family="Update versions"
+            oldString="3.5.1"
+            replacement="3.6.1"
+            priority="0"/>
+        <location
+            file="$HOME/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/gradle/libs.versions.toml"
+            line="7"
+            column="16"
+            startOffset="116"
+            endLine="7"
+            endColumn="23"
+            endOffset="123"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.appcompat:appcompat than 1.6.1 is available: 1.7.1">
+        <fix-replace
+            description="Change to 1.7.1"
+            family="Update versions"
+            oldString="1.6.1"
+            replacement="1.7.1"
+            priority="0"/>
+        <location
+            file="$HOME/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/gradle/libs.versions.toml"
+            line="8"
+            column="13"
+            startOffset="136"
+            endLine="8"
+            endColumn="20"
+            endOffset="143"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.android.material:material than 1.10.0 is available: 1.12.0">
+        <fix-replace
+            description="Change to 1.12.0"
+            family="Update versions"
+            oldString="1.10.0"
+            replacement="1.12.0"
+            priority="0"/>
+        <location
+            file="$HOME/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/gradle/libs.versions.toml"
+            line="9"
+            column="12"
+            startOffset="155"
+            endLine="9"
+            endColumn="20"
+            endOffset="163"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.activity:activity than 1.8.0 is available: 1.10.1">
+        <fix-replace
+            description="Change to 1.10.1"
+            family="Update versions"
+            oldString="1.8.0"
+            replacement="1.10.1"
+            priority="0"/>
+        <location
+            file="$HOME/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/gradle/libs.versions.toml"
+            line="10"
+            column="12"
+            startOffset="175"
+            endLine="10"
+            endColumn="19"
+            endOffset="182"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.constraintlayout:constraintlayout than 2.1.4 is available: 2.2.1">
+        <fix-replace
+            description="Change to 2.2.1"
+            family="Update versions"
+            oldString="2.1.4"
+            replacement="2.2.1"
+            priority="0"/>
+        <location
+            file="$HOME/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/gradle/libs.versions.toml"
+            line="11"
+            column="20"
+            startOffset="202"
+            endLine="11"
+            endColumn="27"
+            endOffset="209"/>
+    </incident>
+
+    <incident
+        id="AndroidGradlePluginVersion"
+        severity="warning"
+        message="A newer version of com.android.application than 8.4.1 is available: 8.11.1. (There is also a newer version of 8.4.𝑥 available, if upgrading to 8.11.1 is difficult: 8.4.2)">
+        <fix-alternatives>
+            <fix-replace
+                description="Change to 8.11.1"
+                family="Update versions"
+                oldString="8.4.1"
+                replacement="8.11.1"
+                priority="0"/>
+            <fix-replace
+                description="Change to 8.4.2"
+                family="Update versions"
+                robot="true"
+                independent="true"
+                oldString="8.4.1"
+                replacement="8.4.2"
+                priority="0"/>
+        </fix-alternatives>
+        <location
+            file="$HOME/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/gradle/libs.versions.toml"
+            line="2"
+            column="7"
+            startOffset="17"
+            endLine="2"
+            endColumn="14"
+            endOffset="24"/>
+    </incident>
+
+</incidents>

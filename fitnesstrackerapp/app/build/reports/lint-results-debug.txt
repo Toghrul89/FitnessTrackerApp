@@ -1,0 +1,313 @@
+/Users/toghruljafarov/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/app/src/main/java/com/example/it216groupproject1/WorkoutActivity.kt:50: Warning: Implicitly using the default locale is a common source of bugs: Use String.format(Locale, ...) instead [DefaultLocale]
+                timerTextView.text = String.format("Time: %02d:%02d", minutes, secs)
+                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/toghruljafarov/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/app/src/main/java/com/example/it216groupproject1/WorkoutActivity.kt:50: Warning: Implicitly using the default locale is a common source of bugs: Use String.format(Locale, ...) instead [DefaultLocale]
+                timerTextView.text = String.format("Time: %02d:%02d", minutes, secs)
+                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/toghruljafarov/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/app/src/main/java/com/example/it216groupproject1/WorkoutActivity.kt:54: Warning: Implicitly using the default locale is a common source of bugs: Use String.format(Locale, ...) instead [DefaultLocale]
+                caloriesTextView.text = String.format("Calories: %.1f", calories)
+                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/toghruljafarov/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/app/src/main/java/com/example/it216groupproject1/WorkoutActivity.kt:54: Warning: Implicitly using the default locale is a common source of bugs: Use String.format(Locale, ...) instead [DefaultLocale]
+                caloriesTextView.text = String.format("Calories: %.1f", calories)
+                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "DefaultLocale":
+   Calling String#toLowerCase() or #toUpperCase() without specifying an
+   explicit locale is a common source of bugs. The reason for that is that
+   those methods will use the current locale on the user's device, and even
+   though the code appears to work correctly when you are developing the app,
+   it will fail in some locales. For example, in the Turkish locale, the
+   uppercase replacement for i is not I.
+
+   If you want the methods to just perform ASCII replacement, for example to
+   convert an enum name, call String#toUpperCase(Locale.ROOT) instead. If you
+   really want to use the current locale, call
+   String#toUpperCase(Locale.getDefault()) instead.
+
+   https://developer.android.com/reference/java/util/Locale.html#default_locale
+
+/Users/toghruljafarov/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/app/build.gradle.kts:13: Warning: Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the android.os.Build.VERSION_CODES javadoc for details. [OldTargetApi]
+        targetSdk = 34
+        ~~~~~~~~~~~~~~
+
+   Explanation for issues of type "OldTargetApi":
+   When your application runs on a version of Android that is more recent than
+   your targetSdkVersion specifies that it has been tested with, various
+   compatibility modes kick in. This ensures that your application continues
+   to work, but it may look out of place. For example, if the targetSdkVersion
+   is less than 14, your app may get an option button in the UI.
+
+   To fix this issue, set the targetSdkVersion to the highest available value.
+   Then test your app to make sure everything works correctly. You may want to
+   consult the compatibility notes to see what changes apply to each version
+   you are adding support for:
+   https://developer.android.com/reference/android/os/Build.VERSION_CODES.html
+   as well as follow this guide:
+   https://developer.android.com/distribute/best-practices/develop/target-sdk.
+   html
+
+   https://developer.android.com/distribute/best-practices/develop/target-sdk.html
+
+/Users/toghruljafarov/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/gradle/libs.versions.toml:2: Warning: A newer version of com.android.application than 8.4.1 is available: 8.11.1. (There is also a newer version of 8.4.𝑥 available, if upgrading to 8.11.1 is difficult: 8.4.2) [AndroidGradlePluginVersion]
+agp = "8.4.1"
+      ~~~~~~~
+/Users/toghruljafarov/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/gradle/libs.versions.toml:2: Warning: A newer version of com.android.application than 8.4.1 is available: 8.11.1. (There is also a newer version of 8.4.𝑥 available, if upgrading to 8.11.1 is difficult: 8.4.2) [AndroidGradlePluginVersion]
+agp = "8.4.1"
+      ~~~~~~~
+/Users/toghruljafarov/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/gradle/libs.versions.toml:2: Warning: A newer version of com.android.application than 8.4.1 is available: 8.11.1. (There is also a newer version of 8.4.𝑥 available, if upgrading to 8.11.1 is difficult: 8.4.2) [AndroidGradlePluginVersion]
+agp = "8.4.1"
+      ~~~~~~~
+
+   Explanation for issues of type "AndroidGradlePluginVersion":
+   This detector looks for usage of the Android Gradle Plugin where the
+   version you are using is not the current stable release. Using older
+   versions is fine, and there are cases where you deliberately want to stick
+   with an older version. However, you may simply not be aware that a more
+   recent version is available, and that is what this lint check helps find.
+
+/Users/toghruljafarov/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/gradle/libs.versions.toml:4: Warning: A newer version of androidx.core:core-ktx than 1.10.1 is available: 1.16.0 [GradleDependency]
+coreKtx = "1.10.1"
+          ~~~~~~~~
+/Users/toghruljafarov/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/gradle/libs.versions.toml:4: Warning: A newer version of androidx.core:core-ktx than 1.10.1 is available: 1.16.0 [GradleDependency]
+coreKtx = "1.10.1"
+          ~~~~~~~~
+/Users/toghruljafarov/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/gradle/libs.versions.toml:4: Warning: A newer version of androidx.core:core-ktx than 1.10.1 is available: 1.16.0 [GradleDependency]
+coreKtx = "1.10.1"
+          ~~~~~~~~
+/Users/toghruljafarov/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/gradle/libs.versions.toml:6: Warning: A newer version of androidx.test.ext:junit than 1.1.5 is available: 1.2.1 [GradleDependency]
+junitVersion = "1.1.5"
+               ~~~~~~~
+/Users/toghruljafarov/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/gradle/libs.versions.toml:6: Warning: A newer version of androidx.test.ext:junit than 1.1.5 is available: 1.2.1 [GradleDependency]
+junitVersion = "1.1.5"
+               ~~~~~~~
+/Users/toghruljafarov/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/gradle/libs.versions.toml:6: Warning: A newer version of androidx.test.ext:junit than 1.1.5 is available: 1.2.1 [GradleDependency]
+junitVersion = "1.1.5"
+               ~~~~~~~
+/Users/toghruljafarov/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/gradle/libs.versions.toml:7: Warning: A newer version of androidx.test.espresso:espresso-core than 3.5.1 is available: 3.6.1 [GradleDependency]
+espressoCore = "3.5.1"
+               ~~~~~~~
+/Users/toghruljafarov/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/gradle/libs.versions.toml:7: Warning: A newer version of androidx.test.espresso:espresso-core than 3.5.1 is available: 3.6.1 [GradleDependency]
+espressoCore = "3.5.1"
+               ~~~~~~~
+/Users/toghruljafarov/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/gradle/libs.versions.toml:7: Warning: A newer version of androidx.test.espresso:espresso-core than 3.5.1 is available: 3.6.1 [GradleDependency]
+espressoCore = "3.5.1"
+               ~~~~~~~
+/Users/toghruljafarov/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/gradle/libs.versions.toml:8: Warning: A newer version of androidx.appcompat:appcompat than 1.6.1 is available: 1.7.1 [GradleDependency]
+appcompat = "1.6.1"
+            ~~~~~~~
+/Users/toghruljafarov/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/gradle/libs.versions.toml:8: Warning: A newer version of androidx.appcompat:appcompat than 1.6.1 is available: 1.7.1 [GradleDependency]
+appcompat = "1.6.1"
+            ~~~~~~~
+/Users/toghruljafarov/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/gradle/libs.versions.toml:8: Warning: A newer version of androidx.appcompat:appcompat than 1.6.1 is available: 1.7.1 [GradleDependency]
+appcompat = "1.6.1"
+            ~~~~~~~
+/Users/toghruljafarov/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/gradle/libs.versions.toml:9: Warning: A newer version of com.google.android.material:material than 1.10.0 is available: 1.12.0 [GradleDependency]
+material = "1.10.0"
+           ~~~~~~~~
+/Users/toghruljafarov/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/gradle/libs.versions.toml:9: Warning: A newer version of com.google.android.material:material than 1.10.0 is available: 1.12.0 [GradleDependency]
+material = "1.10.0"
+           ~~~~~~~~
+/Users/toghruljafarov/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/gradle/libs.versions.toml:9: Warning: A newer version of com.google.android.material:material than 1.10.0 is available: 1.12.0 [GradleDependency]
+material = "1.10.0"
+           ~~~~~~~~
+/Users/toghruljafarov/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/gradle/libs.versions.toml:10: Warning: A newer version of androidx.activity:activity than 1.8.0 is available: 1.10.1 [GradleDependency]
+activity = "1.8.0"
+           ~~~~~~~
+/Users/toghruljafarov/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/gradle/libs.versions.toml:10: Warning: A newer version of androidx.activity:activity than 1.8.0 is available: 1.10.1 [GradleDependency]
+activity = "1.8.0"
+           ~~~~~~~
+/Users/toghruljafarov/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/gradle/libs.versions.toml:10: Warning: A newer version of androidx.activity:activity than 1.8.0 is available: 1.10.1 [GradleDependency]
+activity = "1.8.0"
+           ~~~~~~~
+/Users/toghruljafarov/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/gradle/libs.versions.toml:11: Warning: A newer version of androidx.constraintlayout:constraintlayout than 2.1.4 is available: 2.2.1 [GradleDependency]
+constraintlayout = "2.1.4"
+                   ~~~~~~~
+/Users/toghruljafarov/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/gradle/libs.versions.toml:11: Warning: A newer version of androidx.constraintlayout:constraintlayout than 2.1.4 is available: 2.2.1 [GradleDependency]
+constraintlayout = "2.1.4"
+                   ~~~~~~~
+/Users/toghruljafarov/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/gradle/libs.versions.toml:11: Warning: A newer version of androidx.constraintlayout:constraintlayout than 2.1.4 is available: 2.2.1 [GradleDependency]
+constraintlayout = "2.1.4"
+                   ~~~~~~~
+
+   Explanation for issues of type "GradleDependency":
+   This detector looks for usages of libraries where the version you are using
+   is not the current stable release. Using older versions is fine, and there
+   are cases where you deliberately want to stick with an older version.
+   However, you may simply not be aware that a more recent version is
+   available, and that is what this lint check helps find.
+
+/Users/toghruljafarov/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/app/src/main/res/layout/activity_main.xml:8: Warning: Possible overdraw: Root element paints background #FAFAFA with a theme that also paints a background (inferred theme is @style/Theme.FitnessTrackerApp) [Overdraw]
+    android:background="#FAFAFA">
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/toghruljafarov/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/app/src/main/res/layout/activity_progress.xml:8: Warning: Possible overdraw: Root element paints background #FFFFFF with a theme that also paints a background (inferred theme is @style/Theme.FitnessTrackerApp) [Overdraw]
+    android:background="#FFFFFF">
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/toghruljafarov/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/app/src/main/res/layout/activity_set_goal.xml:9: Warning: Possible overdraw: Root element paints background @android:color/white with a theme that also paints a background (inferred theme is @style/Theme.FitnessTrackerApp) [Overdraw]
+    android:background="@android:color/white">
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/toghruljafarov/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/app/src/main/res/layout/activity_workout.xml:8: Warning: Possible overdraw: Root element paints background #FFFFFF with a theme that also paints a background (inferred theme is @style/Theme.FitnessTrackerApp) [Overdraw]
+    android:background="#FFFFFF">
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "Overdraw":
+   If you set a background drawable on a root view, then you should use a
+   custom theme where the theme background is null. Otherwise, the theme
+   background will be painted first, only to have your custom background
+   completely cover it; this is called "overdraw".
+
+   NOTE: This detector relies on figuring out which layouts are associated
+   with which activities based on scanning the Java code, and it's currently
+   doing that using an inexact pattern matching algorithm. Therefore, it can
+   incorrectly conclude which activity the layout is associated with and then
+   wrongly complain that a background-theme is hidden.
+
+   If you want your custom background on multiple pages, then you should
+   consider making a custom theme with your custom background and just using
+   that theme instead of a root element background.
+
+   Of course it's possible that your custom drawable is translucent and you
+   want it to be mixed with the background. However, you will get better
+   performance if you pre-mix the background with your drawable and use that
+   resulting image or color as a custom theme background instead.
+
+/Users/toghruljafarov/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/app/src/main/res/xml/backup_rules.xml:8: Warning: The resource R.xml.backup_rules appears to be unused [UnusedResources]
+<full-backup-content>
+^
+/Users/toghruljafarov/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/app/src/main/res/xml/data_extraction_rules.xml:6: Warning: The resource R.xml.data_extraction_rules appears to be unused [UnusedResources]
+<data-extraction-rules>
+^
+/Users/toghruljafarov/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/app/src/main/res/values-night/themes.xml:3: Warning: The resource R.style.Base_Theme_IT216GroupProject1 appears to be unused [UnusedResources]
+    <style name="Base.Theme.IT216GroupProject1" parent="Theme.Material3.DayNight.NoActionBar">
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "UnusedResources":
+   Unused resources make applications larger and slow down builds.
+
+
+   The unused resource check can ignore tests. If you want to include
+   resources that are only referenced from tests, consider packaging them in a
+   test source set instead.
+
+   You can include test sources in the unused resource check by setting the
+   system property lint.unused-resources.include-tests =true, and to exclude
+   them (usually for performance reasons), use
+   lint.unused-resources.exclude-tests =true.
+   ,
+
+/Users/toghruljafarov/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/app/src/main/res/layout/activity_set_goal.xml:20: Warning: Missing autofillHints attribute [Autofill]
+    <EditText
+     ~~~~~~~~
+
+   Explanation for issues of type "Autofill":
+   Specify an autofillHints attribute when targeting SDK version 26 or higher
+   or explicitly specify that the view is not important for autofill. Your app
+   can help an autofill service classify the data correctly by providing the
+   meaning of each view that could be autofillable, such as views representing
+   usernames, passwords, credit card fields, email addresses, etc.
+
+   The hints can have any value, but it is recommended to use predefined
+   values like 'username' for a username or 'creditCardNumber' for a credit
+   card number. For a list of all predefined autofill hint constants, see the
+   AUTOFILL_HINT_ constants in the View reference at
+   https://developer.android.com/reference/android/view/View.html.
+
+   You can mark a view unimportant for autofill by specifying an
+   importantForAutofill attribute on that view or a parent view. See
+   https://developer.android.com/reference/android/view/View.html#setImportant
+   ForAutofill(int).
+
+   https://developer.android.com/guide/topics/text/autofill.html
+
+/Users/toghruljafarov/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/app/src/main/java/com/example/it216groupproject1/MainActivity.kt:20: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+        goalTextView.text = "Your Goal: $savedGoal"
+                            ~~~~~~~~~~~~~~~~~~~~~~~
+/Users/toghruljafarov/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/app/src/main/java/com/example/it216groupproject1/MainActivity.kt:20: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+        goalTextView.text = "Your Goal: $savedGoal"
+                             ~~~~~~~~~~~
+/Users/toghruljafarov/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/app/src/main/java/com/example/it216groupproject1/ProgressActivity.kt:25: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+            textViewGoal.text = "Your current goal: $savedGoal"
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/toghruljafarov/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/app/src/main/java/com/example/it216groupproject1/ProgressActivity.kt:25: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+            textViewGoal.text = "Your current goal: $savedGoal"
+                                 ~~~~~~~~~~~~~~~~~~~
+/Users/toghruljafarov/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/app/src/main/java/com/example/it216groupproject1/ProgressActivity.kt:27: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+            textViewGoal.text = "No goal set yet. Go set one!"
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "SetTextI18n":
+   When calling TextView#setText
+   * Never call Number#toString() to format numbers; it will not handle
+   fraction separators and locale-specific digits properly. Consider using
+   String#format with proper format specifications (%d or %f) instead.
+   * Do not pass a string literal (e.g. "Hello") to display text. Hardcoded
+   text can not be properly translated to other languages. Consider using
+   Android resource strings instead.
+   * Do not build messages by concatenating text chunks. Such messages can not
+   be properly translated.
+
+   https://developer.android.com/guide/topics/resources/localization.html
+
+/Users/toghruljafarov/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/app/src/main/res/layout/activity_main.xml:14: Warning: Hardcoded string "🏋️ Fitness Tracker", should use @string resource [HardcodedText]
+        android:text="🏋️ Fitness Tracker"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/toghruljafarov/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/app/src/main/res/layout/activity_main.xml:24: Warning: Hardcoded string "(Goal goes here)", should use @string resource [HardcodedText]
+        android:text="(Goal goes here)"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/toghruljafarov/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/app/src/main/res/layout/activity_main.xml:33: Warning: Hardcoded string "Set Goal", should use @string resource [HardcodedText]
+        android:text="Set Goal"
+        ~~~~~~~~~~~~~~~~~~~~~~~
+/Users/toghruljafarov/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/app/src/main/res/layout/activity_main.xml:43: Warning: Hardcoded string "Start Workout", should use @string resource [HardcodedText]
+        android:text="Start Workout"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/toghruljafarov/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/app/src/main/res/layout/activity_main.xml:53: Warning: Hardcoded string "View Progress", should use @string resource [HardcodedText]
+        android:text="View Progress"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/toghruljafarov/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/app/src/main/res/layout/activity_progress.xml:14: Warning: Hardcoded string "📈 Progress", should use @string resource [HardcodedText]
+        android:text="📈 Progress"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/toghruljafarov/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/app/src/main/res/layout/activity_progress.xml:25: Warning: Hardcoded string "Loading saved goal...", should use @string resource [HardcodedText]
+        android:text="Loading saved goal..."
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/toghruljafarov/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/app/src/main/res/layout/activity_progress.xml:36: Warning: Hardcoded string "Your progress will appear here.", should use @string resource [HardcodedText]
+        android:text="Your progress will appear here."
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/toghruljafarov/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/app/src/main/res/layout/activity_progress.xml:45: Warning: Hardcoded string "← Back to Home", should use @string resource [HardcodedText]
+        android:text="← Back to Home"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/toghruljafarov/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/app/src/main/res/layout/activity_set_goal.xml:15: Warning: Hardcoded string "Set Your Workout Goal", should use @string resource [HardcodedText]
+        android:text="Set Your Workout Goal"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/toghruljafarov/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/app/src/main/res/layout/activity_set_goal.xml:24: Warning: Hardcoded string "e.g. Run 5km", should use @string resource [HardcodedText]
+        android:hint="e.g. Run 5km"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/toghruljafarov/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/app/src/main/res/layout/activity_set_goal.xml:34: Warning: Hardcoded string "Save Goal", should use @string resource [HardcodedText]
+        android:text="Save Goal"
+        ~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/toghruljafarov/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/app/src/main/res/layout/activity_workout.xml:14: Warning: Hardcoded string "Time: 00:00", should use @string resource [HardcodedText]
+        android:text="Time: 00:00"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/toghruljafarov/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/app/src/main/res/layout/activity_workout.xml:24: Warning: Hardcoded string "Calories: 0.0", should use @string resource [HardcodedText]
+        android:text="Calories: 0.0"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/toghruljafarov/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/app/src/main/res/layout/activity_workout.xml:33: Warning: Hardcoded string "Start Workout", should use @string resource [HardcodedText]
+        android:text="Start Workout"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/toghruljafarov/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/app/src/main/res/layout/activity_workout.xml:41: Warning: Hardcoded string "Stop Workout", should use @string resource [HardcodedText]
+        android:text="Stop Workout"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "HardcodedText":
+   Hardcoding text attributes directly in layout files is bad for several
+   reasons:
+
+   * When creating configuration variations (for example for landscape or
+   portrait) you have to repeat the actual text (and keep it up to date when
+   making changes)
+
+   * The application cannot be translated to other languages by just adding
+   new translations for existing string resources.
+
+   There are quickfixes to automatically extract this hardcoded string into a
+   resource lookup.
+
+0 errors, 58 warnings
