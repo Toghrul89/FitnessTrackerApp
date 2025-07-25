@@ -1,0 +1,4 @@
+/Users/toghruljafarov/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/app/src/main/java/com/example/it216groupproject1/WorkoutActivity.kt
+/Users/toghruljafarov/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/app/src/main/java/com/example/it216groupproject1/SetGoalActivity.kt
+/Users/toghruljafarov/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/app/src/main/java/com/example/it216groupproject1/ProgressActivity.kt
+/Users/toghruljafarov/Desktop/projects/FitnessTrackerApp/fitnesstrackerapp/app/src/main/java/com/example/it216groupproject1/MainActivity.kt
