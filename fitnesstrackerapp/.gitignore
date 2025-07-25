@@ -1,4 +1,5 @@
-# Ignore Gradle system files
-.gradle/
-*.lock
-*.probe
+/build/
+/.gradle/
+/.idea/
+/local.properties
+*.iml
