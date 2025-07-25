@@ -8,27 +8,33 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 
 class SetGoalActivity : AppCompatActivity() {
+
+    // Constants for preferences
+    private val PREFS_NAME = "FitnessPrefs"
+    private val GOAL_KEY = "goal"
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_set_goal)
 
-        val goalInput = findViewById<EditText>(R.id.etGoal)
-        val saveButton = findViewById<Button>(R.id.btnSaveGoal)
+        val goalInput = findViewById<EditText>(R.id.editTextGoal)
+        val saveButton = findViewById<Button>(R.id.buttonSaveGoal)
 
-        val sharedPrefs = getSharedPreferences("FitnessPrefs", Context.MODE_PRIVATE)
+        // Load saved goal if it exists
+        val sharedPrefs = getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
+        val savedGoal = sharedPrefs.getString(GOAL_KEY, "")
+        goalInput.setText(savedGoal)
 
+        // Save goal when button is clicked
         saveButton.setOnClickListener {
             val goalText = goalInput.text.toString().trim()
-
             if (goalText.isNotEmpty()) {
-                with(sharedPrefs.edit()) {
-                    putString("user_goal", goalText)
-                    apply()
-                }
+                val editor = sharedPrefs.edit()
+                editor.putString(GOAL_KEY, goalText)
+                editor.apply()
                 Toast.makeText(this, "Goal saved!", Toast.LENGTH_SHORT).show()
-                finish() // return to MainActivity
             } else {
-                Toast.makeText(this, "Please enter a goal.", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Please enter a goal", Toast.LENGTH_SHORT).show()
             }
         }
     }

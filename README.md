@@ -1,25 +1,39 @@
 FitnessTrackerApp
 
-A simple, beginner-friendly Android app to help users set workout goals, track time, and view progress. Built with Kotlin using **Android Studio**, this app demonstrates clean UI, activity navigation, and core Android components — perfect for a junior software developer portfolio.
+Description
+
+A simple Android app to help users set workout goals, track time, and view progress. Built in Kotlin using Android Studio/Visual Studio Code, this project demonstrates core Android concepts like activity navigation, data storage, and a clean user interface.
+
+Note: This app was originally created as a team project at Seattle Central College as part of our Software Development program. I later continued improving it individually by adding saved goals, UI polish, and better app structure.
 
 ---
 
 Features
 
-✅ Set fitness goals  
-✅ Start a workout timer  
-✅ View a progress screen (placeholder for future data)  
-✅ Simple, clean user interface  
-✅ Navigation between activities  
-✅ Ready to build, run, and extend
+✅ Set a custom fitness goal  
+✅ Save and load the goal using SharedPreferences  
+✅ View your goal on a progress screen  
+✅ Multi-activity navigation  
+✅ Clean, colorful UI with buttons and basic styling  
+✅ Beginner-level structure, ready to expand
 
 ---
 
 Tech Stack
 
 - Language: Kotlin  
-- Editor: Visual Studio Code
-- Build Tool: Gradle (configured through Android SDK) 
-- SDK: 21  
-- UI: XML Layouts, LinearLayouts, Buttons, TextViews  
-- Architecture: Multi-Activity (simple MVVM-ready structure)
+- UI: XML Layouts (LinearLayout, Buttons, TextViews)  
+- Storage: SharedPreferences  
+- Build Tool: Gradle  
+- Min SDK: 21  
+- IDE: Android Studio / Visual Studio Code
+
+---
+
+Project Structure
+
+- MainActivity.kt # Home screen with navigation
+- SetGoalActivity.kt # Allows users to set and save goals
+- ProgressActivity.kt # Displays saved goals from storage
+- WorkoutActivity.kt # Placeholder for a future timer
+- res/layout/ # UI XML files
