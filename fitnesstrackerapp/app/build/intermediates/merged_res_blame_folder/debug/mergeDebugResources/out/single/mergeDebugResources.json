@@ -1,82 +1,146 @@
 [
     {
-        "merged": "com.example.it216groupproject1.app-debug-31:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.example.it216groupproject1.app-main-33:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "/Users/toghruljafarov/.gradle/daemon/8.6/com.example.it216groupproject1.app-debug-34:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/toghruljafarov/.gradle/daemon/8.6/com.example.it216groupproject1.app-main-36:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.it216groupproject1.app-debug-31:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.it216groupproject1.app-main-33:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "/Users/toghruljafarov/.gradle/daemon/8.6/com.example.it216groupproject1.app-debug-34:/drawable_bg_card_high.xml.flat",
+        "source": "/Users/toghruljafarov/.gradle/daemon/8.6/com.example.it216groupproject1.app-main-36:/drawable/bg_card_high.xml"
     },
     {
-        "merged": "com.example.it216groupproject1.app-debug-31:/layout_activity_workout.xml.flat",
-        "source": "com.example.it216groupproject1.app-main-33:/layout/activity_workout.xml"
+        "merged": "/Users/toghruljafarov/.gradle/daemon/8.6/com.example.it216groupproject1.app-debug-34:/xml_backup_rules.xml.flat",
+        "source": "/Users/toghruljafarov/.gradle/daemon/8.6/com.example.it216groupproject1.app-main-36:/xml/backup_rules.xml"
     },
     {
-        "merged": "com.example.it216groupproject1.app-debug-31:/layout_activity_set_goal.xml.flat",
-        "source": "com.example.it216groupproject1.app-main-33:/layout/activity_set_goal.xml"
+        "merged": "/Users/toghruljafarov/.gradle/daemon/8.6/com.example.it216groupproject1.app-debug-34:/layout_activity_set_goal.xml.flat",
+        "source": "/Users/toghruljafarov/.gradle/daemon/8.6/com.example.it216groupproject1.app-main-36:/layout/activity_set_goal.xml"
     },
     {
-        "merged": "com.example.it216groupproject1.app-debug-31:/layout_activity_progress.xml.flat",
-        "source": "com.example.it216groupproject1.app-main-33:/layout/activity_progress.xml"
+        "merged": "/Users/toghruljafarov/.gradle/daemon/8.6/com.example.it216groupproject1.app-debug-34:/layout_activity_progress.xml.flat",
+        "source": "/Users/toghruljafarov/.gradle/daemon/8.6/com.example.it216groupproject1.app-main-36:/layout/activity_progress.xml"
     },
     {
-        "merged": "com.example.it216groupproject1.app-debug-31:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.it216groupproject1.app-main-33:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "/Users/toghruljafarov/.gradle/daemon/8.6/com.example.it216groupproject1.app-debug-34:/layout_activity_main.xml.flat",
+        "source": "/Users/toghruljafarov/.gradle/daemon/8.6/com.example.it216groupproject1.app-main-36:/layout/activity_main.xml"
     },
     {
-        "merged": "com.example.it216groupproject1.app-debug-31:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.it216groupproject1.app-main-33:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "com.example.it216groupproject1.app-debug-34:/layout_activity_workout.xml.flat",
+        "source": "com.example.it216groupproject1.app-main-36:/layout/activity_workout.xml"
     },
     {
-        "merged": "com.example.it216groupproject1.app-debug-31:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.example.it216groupproject1.app-main-33:/drawable/ic_launcher_foreground.xml"
+        "merged": "/Users/toghruljafarov/.gradle/daemon/8.6/com.example.it216groupproject1.app-debug-34:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/toghruljafarov/.gradle/daemon/8.6/com.example.it216groupproject1.app-main-36:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.it216groupproject1.app-debug-31:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.example.it216groupproject1.app-main-33:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "/Users/toghruljafarov/.gradle/daemon/8.6/com.example.it216groupproject1.app-debug-34:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/Users/toghruljafarov/.gradle/daemon/8.6/com.example.it216groupproject1.app-main-36:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.it216groupproject1.app-debug-31:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.it216groupproject1.app-main-33:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "com.example.it216groupproject1.app-debug-34:/layout_activity_set_goal.xml.flat",
+        "source": "com.example.it216groupproject1.app-main-36:/layout/activity_set_goal.xml"
     },
     {
-        "merged": "com.example.it216groupproject1.app-debug-31:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.example.it216groupproject1.app-main-33:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "com.example.it216groupproject1.app-debug-34:/layout_activity_progress.xml.flat",
+        "source": "com.example.it216groupproject1.app-main-36:/layout/activity_progress.xml"
     },
     {
-        "merged": "com.example.it216groupproject1.app-debug-31:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.it216groupproject1.app-main-33:/drawable/ic_launcher_background.xml"
+        "merged": "/Users/toghruljafarov/.gradle/daemon/8.6/com.example.it216groupproject1.app-debug-34:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/toghruljafarov/.gradle/daemon/8.6/com.example.it216groupproject1.app-main-36:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.it216groupproject1.app-debug-31:/layout_activity_main.xml.flat",
-        "source": "com.example.it216groupproject1.app-main-33:/layout/activity_main.xml"
+        "merged": "/Users/toghruljafarov/.gradle/daemon/8.6/com.example.it216groupproject1.app-debug-34:/drawable_ic_arrow_back_24.xml.flat",
+        "source": "/Users/toghruljafarov/.gradle/daemon/8.6/com.example.it216groupproject1.app-main-36:/drawable/ic_arrow_back_24.xml"
     },
     {
-        "merged": "com.example.it216groupproject1.app-debug-31:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.it216groupproject1.app-main-33:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "/Users/toghruljafarov/.gradle/daemon/8.6/com.example.it216groupproject1.app-debug-34:/drawable_bg_card.xml.flat",
+        "source": "/Users/toghruljafarov/.gradle/daemon/8.6/com.example.it216groupproject1.app-main-36:/drawable/bg_card.xml"
     },
     {
-        "merged": "com.example.it216groupproject1.app-debug-31:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.it216groupproject1.app-main-33:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "com.example.it216groupproject1.app-debug-34:/layout_item_spinner_workout_type.xml.flat",
+        "source": "com.example.it216groupproject1.app-main-36:/layout/item_spinner_workout_type.xml"
     },
     {
-        "merged": "com.example.it216groupproject1.app-debug-31:/xml_backup_rules.xml.flat",
-        "source": "com.example.it216groupproject1.app-main-33:/xml/backup_rules.xml"
+        "merged": "/Users/toghruljafarov/.gradle/daemon/8.6/com.example.it216groupproject1.app-debug-34:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/toghruljafarov/.gradle/daemon/8.6/com.example.it216groupproject1.app-main-36:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.it216groupproject1.app-debug-31:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.it216groupproject1.app-main-33:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "/Users/toghruljafarov/.gradle/daemon/8.6/com.example.it216groupproject1.app-debug-34:/drawable_bg_input.xml.flat",
+        "source": "/Users/toghruljafarov/.gradle/daemon/8.6/com.example.it216groupproject1.app-main-36:/drawable/bg_input.xml"
     },
     {
-        "merged": "com.example.it216groupproject1.app-debug-31:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.it216groupproject1.app-main-33:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "/Users/toghruljafarov/.gradle/daemon/8.6/com.example.it216groupproject1.app-debug-34:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/Users/toghruljafarov/.gradle/daemon/8.6/com.example.it216groupproject1.app-main-36:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.it216groupproject1.app-debug-31:/xml_data_extraction_rules.xml.flat",
-        "source": "com.example.it216groupproject1.app-main-33:/xml/data_extraction_rules.xml"
+        "merged": "/Users/toghruljafarov/.gradle/daemon/8.6/com.example.it216groupproject1.app-debug-34:/xml_data_extraction_rules.xml.flat",
+        "source": "/Users/toghruljafarov/.gradle/daemon/8.6/com.example.it216groupproject1.app-main-36:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "com.example.it216groupproject1.app-debug-31:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.it216groupproject1.app-main-33:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "/Users/toghruljafarov/.gradle/daemon/8.6/com.example.it216groupproject1.app-debug-34:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/toghruljafarov/.gradle/daemon/8.6/com.example.it216groupproject1.app-main-36:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/toghruljafarov/.gradle/daemon/8.6/com.example.it216groupproject1.app-debug-34:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/Users/toghruljafarov/.gradle/daemon/8.6/com.example.it216groupproject1.app-main-36:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/toghruljafarov/.gradle/daemon/8.6/com.example.it216groupproject1.app-debug-34:/drawable_bg_progress_track.xml.flat",
+        "source": "/Users/toghruljafarov/.gradle/daemon/8.6/com.example.it216groupproject1.app-main-36:/drawable/bg_progress_track.xml"
+    },
+    {
+        "merged": "/Users/toghruljafarov/.gradle/daemon/8.6/com.example.it216groupproject1.app-debug-34:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/toghruljafarov/.gradle/daemon/8.6/com.example.it216groupproject1.app-main-36:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/toghruljafarov/.gradle/daemon/8.6/com.example.it216groupproject1.app-debug-34:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/toghruljafarov/.gradle/daemon/8.6/com.example.it216groupproject1.app-main-36:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/toghruljafarov/.gradle/daemon/8.6/com.example.it216groupproject1.app-debug-34:/drawable_bg_primary_button.xml.flat",
+        "source": "/Users/toghruljafarov/.gradle/daemon/8.6/com.example.it216groupproject1.app-main-36:/drawable/bg_primary_button.xml"
+    },
+    {
+        "merged": "/Users/toghruljafarov/.gradle/daemon/8.6/com.example.it216groupproject1.app-debug-34:/drawable_bg_goal_progress.xml.flat",
+        "source": "/Users/toghruljafarov/.gradle/daemon/8.6/com.example.it216groupproject1.app-main-36:/drawable/bg_goal_progress.xml"
+    },
+    {
+        "merged": "/Users/toghruljafarov/.gradle/daemon/8.6/com.example.it216groupproject1.app-debug-34:/drawable_bg_app_gradient.xml.flat",
+        "source": "/Users/toghruljafarov/.gradle/daemon/8.6/com.example.it216groupproject1.app-main-36:/drawable/bg_app_gradient.xml"
+    },
+    {
+        "merged": "/Users/toghruljafarov/.gradle/daemon/8.6/com.example.it216groupproject1.app-debug-34:/layout_activity_workout.xml.flat",
+        "source": "/Users/toghruljafarov/.gradle/daemon/8.6/com.example.it216groupproject1.app-main-36:/layout/activity_workout.xml"
+    },
+    {
+        "merged": "/Users/toghruljafarov/.gradle/daemon/8.6/com.example.it216groupproject1.app-debug-34:/layout_activity_history.xml.flat",
+        "source": "/Users/toghruljafarov/.gradle/daemon/8.6/com.example.it216groupproject1.app-main-36:/layout/activity_history.xml"
+    },
+    {
+        "merged": "com.example.it216groupproject1.app-debug-34:/layout_item_spinner_workout_type_dropdown.xml.flat",
+        "source": "com.example.it216groupproject1.app-main-36:/layout/item_spinner_workout_type_dropdown.xml"
+    },
+    {
+        "merged": "/Users/toghruljafarov/.gradle/daemon/8.6/com.example.it216groupproject1.app-debug-34:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/toghruljafarov/.gradle/daemon/8.6/com.example.it216groupproject1.app-main-36:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/toghruljafarov/.gradle/daemon/8.6/com.example.it216groupproject1.app-debug-34:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/toghruljafarov/.gradle/daemon/8.6/com.example.it216groupproject1.app-main-36:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/toghruljafarov/.gradle/daemon/8.6/com.example.it216groupproject1.app-debug-34:/layout_item_workout_history.xml.flat",
+        "source": "/Users/toghruljafarov/.gradle/daemon/8.6/com.example.it216groupproject1.app-main-36:/layout/item_workout_history.xml"
+    },
+    {
+        "merged": "/Users/toghruljafarov/.gradle/daemon/8.6/com.example.it216groupproject1.app-debug-34:/drawable_bg_danger_button.xml.flat",
+        "source": "/Users/toghruljafarov/.gradle/daemon/8.6/com.example.it216groupproject1.app-main-36:/drawable/bg_danger_button.xml"
+    },
+    {
+        "merged": "/Users/toghruljafarov/.gradle/daemon/8.6/com.example.it216groupproject1.app-debug-34:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/toghruljafarov/.gradle/daemon/8.6/com.example.it216groupproject1.app-main-36:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/toghruljafarov/.gradle/daemon/8.6/com.example.it216groupproject1.app-debug-34:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/toghruljafarov/.gradle/daemon/8.6/com.example.it216groupproject1.app-main-36:/drawable/ic_launcher_background.xml"
     }
 ]

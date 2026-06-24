@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="purple_500">#6200EE</color>
-    <color name="purple_700">#3700B3</color>
-    <color name="teal_200">#03DAC5</color>
+    <color name="app_background">#08111F</color>
+    <color name="app_background_deep">#050B14</color>
+    <color name="surface_card">#141D32</color>
+    <color name="surface_card_high">#1B2540</color>
+    <color name="surface_subtle">#26304D</color>
+    <color name="primary_accent">#8B5CF6</color>
+    <color name="primary_accent_dark">#5B4BFF</color>
+    <color name="secondary_accent">#4F7BFF</color>
+    <color name="success_accent">#60D66A</color>
+    <color name="warning_accent">#FF8A3D</color>
+    <color name="danger_accent">#FF6868</color>
+    <color name="text_primary">#F8FAFC</color>
+    <color name="text_secondary">#B8C0D4</color>
+    <color name="text_muted">#7F8AA6</color>
+    <color name="purple_500">@color/primary_accent</color>
+    <color name="purple_700">@color/primary_accent_dark</color>
+    <color name="teal_200">#55E0C4</color>
     <color name="white">#FFFFFF</color>
     <color name="black">#000000</color>
 </resources>
